@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    background-image: url('img/MicrosoftTeams-image\ \(6\).png');
+    background-size: cover;
+    background-position: right top;
+    display: flex;
+    flex-direction: column;
+}
+
+header{
+    background-color: black;
+    height:70px;
+}
+
+main{
+    background-color: magenta;
+    flex-grow: 1;
+}
+footer{
+
+    background-color: turquoise;
+    height: 40px;
+}
