@@ -6,24 +6,51 @@
 body{
     width: 100vw;
     height: 100vh;
-    background-image: url('img/MicrosoftTeams-image\ \(6\).png');
+    background-image: url("img/290232-cidade_invisivel.jpg");
     background-size: cover;
     background-position: right top;
     display: flex;
     flex-direction: column;
+    font-family: 'Karla', sans-serif;
 }
+
 
 header{
     background-color: black;
     height:70px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 10vw;
+   /* padding-right: 200px;
+    padding-left: 200px;*/
+    align-items: center;
+}
+.logo img{
+    width: 120px;
+}
+.links ul{
+    background-color: white;
+    gap: 20px;
+    display: flex;
+    list-style-type: none;
 }
 
+.links a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    user-select: none;
+    transition: all 1s;
+}
+.links a:hover{
+    color:red;
+}
 main{
-    background-color: magenta;
+  /*  background-color: magenta;*/
     flex-grow: 1;
 }
 footer{
 
-    background-color: turquoise;
+   /* background-color: turquoise;*/
     height: 40px;
 }
