@@ -12,6 +12,7 @@ body{
     display: flex;
     flex-direction: column;
     font-family: 'Karla', sans-serif;
+    color: white;
 }
 
 
@@ -21,8 +22,6 @@ header{
     display: flex;
     justify-content: space-between;
     padding: 0 10vw;
-   /* padding-right: 200px;
-    padding-left: 200px;*/
     align-items: center;
 }
 .logo img{
@@ -46,11 +45,58 @@ header{
     color:red;
 }
 main{
-  /*  background-color: magenta;*/
+    padding: 20vh 10vw;
     flex-grow: 1;
+}
+main h2{
+    font-size: 30px; 
+}
+main h1 {
+    font-size: 70px;
+}
+main p{
+    font-size: 25px;
+    font-weight: 200;
+    max-width: 800px;
+}
+main a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 200px;
+    background-color: goldenrod;
+    text-decoration: none;
+    color: white;
+    font: 20px;
+    margin-top: 30px;
+    border-radius: 2px;
+    transition: all .5s;
+
+}
+main a:hover{
+    border: solid 1px goldenrod;
+    background-color: black;
 }
 footer{
 
    /* background-color: turquoise;*/
     height: 40px;
+}
+.butterfly{
+    position: absolute;
+    width: 60px;
+    top: 90vh;
+    left: 90vw;
+    filter: brightness(10%);
+    animation: voar 20s linear infinite;
+}
+@keyframes voar {
+    0%{
+        transform: translate(0,0);
+    }
+    100% {
+        transform:translate(-90vw, -90vh);
+    }
+
 }
