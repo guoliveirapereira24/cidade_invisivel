@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    background-color: black;
+    height:80px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 10vw;
+    align-items: center;
+    opacity: 70%;
+}
+.logo img{
+    width: 120px;
+}
+.links ul{
+    background-color: black;
+    gap: 20px;
+    display: flex;
+    list-style-type: none;
+}
+
+.links a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    user-select: none;
+    transition: all 1s;
+}
+.links a:hover{
+    color:red;
+}
+body {
+    width: 100vw;
+    height: 100vh;
+    background: url(img/curupira.png);
+    background-size: cover;
+    background-position: center top;
+    display: flex;
+    flex-direction: column;
+    overflow-x: hidden;
+}
+main {
+    padding: 13vh 10vw;
+    flex-grow: 1;
+    color: white;
+}
+h3, p {
+    color: white;
+}
+h1 {
+    font-size: 100px;
+    color: transparent;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: white;
+    box-shadow: #FFFFFF;
+}
+h2 {
+    color: red;
+    transform: rotate(270deg);
+    font-size: 35px;
+    font-weight: 400;
+}
+.description__area {
+    display: flex;
+    height: 30vh;
+    width: 30vw;
+    align-items: center;
+}
+.description__area p {
+    font-size: 22px;
+    font-style: italic;
+}
+.info__area {
+    display: flex;
+    width: 37vw;
+    justify-content: space-between;
+    align-items: center;
+}
+.info__area .info p, .info__area .info h3 {
+    font-style: italic;
+}
+.info__area .info h3 {
+    font-size: 25px;
+    font-weight: 400;
+}
+.linha {
+    height: 50px;
+    border-left: 3px solid red;
+}

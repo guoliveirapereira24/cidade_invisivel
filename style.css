@@ -23,12 +23,13 @@ header{
     justify-content: space-between;
     padding: 0 10vw;
     align-items: center;
+    color: transparent;
 }
 .logo img{
     width: 120px;
 }
 .links ul{
-    background-color: white;
+    background-color: black;
     gap: 20px;
     display: flex;
     list-style-type: none;
